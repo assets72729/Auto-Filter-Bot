@@ -19,7 +19,7 @@ API_ID = int(environ.get('API_ID', '37988924'))
 API_HASH = environ.get('API_HASH', 'fccc55f248cf1739f6cf120d3e244561')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
-CACHE_TIME = int(environ.get('CACHE_TIME', 10))
+CACHE_TIME = int(environ.get('CACHE_TIME', 150))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://i.ibb.co/ch3n9wsf/x.jpg')).split() 
